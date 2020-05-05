@@ -1,6 +1,6 @@
 
 body {
-    background-color: black; 
+    background-color: black;
 }
 
 .monospace {
@@ -10,6 +10,7 @@ body {
 p {
     background: #61509e;
     color: #ffff;
+    border-radius: 10px;
     margin-right: 200px;
 }
 
@@ -24,6 +25,14 @@ footer {
 .header-violet {
     color: blueviolet;
     font-size: 3rem;
+    margin: 50px auto;
+    min-width: 900px;
+    width: 50%;
+    border: 15px solid #fefefe;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+
 }
 
 a {
@@ -31,31 +40,41 @@ a {
 }
 
 .menu-grey {
-    width:900px; 
-    height:40px
+    max-width: 561px; 
+    height: 40px;
+    margin: 0 auto;
 }
 
 .header-content {
     color: #ffffff;
-    width: 300px; 
-    height: 40px; 
+    max-width: 300px; 
+    height: 20px; 
     background-color: rgb(88, 99, 100); 
-    float:left
+    float:left;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #fefefe;
 }
 
 .header-notes {
     color: #ffffff;
-    width: 300px; 
-    height: 40px; 
+    max-width: 300px; 
+    height: 20px; 
     background-color: rgb(102, 114, 116); 
-    float:left
+    float:left;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #fefefe;
 }
 
 .header-tasks {
     color: #ffffff;
-    width: 300px; 
-    height: 40px; 
+    max-width: 300px; 
+    height: 20px; 
     background-color: rgb(124, 137, 139); 
-    float:left  
+    float:left;
+    padding: 20px;  
+    border-radius: 20px;
+    border: 3px solid #fefefe;
 }
 
