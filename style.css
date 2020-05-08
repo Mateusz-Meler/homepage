@@ -8,9 +8,10 @@ body {
 }
 
 p {
-  background-color: darkgrey;
+  background-color: #b19e60;
   padding: 16px;
   border-radius: 10px;
+  color: white;
 }
 
 footer {
@@ -18,7 +19,7 @@ footer {
   text-align: center;
 }
 
-a {
+.top {
   color: #fefefe;
   background: #b19e60;
   padding: 5px;
@@ -29,14 +30,76 @@ a {
   color: yellow;
 }
 
-.header-violet {
-  color: blueviolet;
-  font-size: 3rem;
+.main-board__link {
+  position: relative;
   border: 1px solid #fefefe;
+}
+
+.main-board {
+  background: #ece4b7;
   border-radius: 10px;
-  padding: 20px;
-  margin: 50px;
+  margin: 50px 20px 30px 20px;
+  border: 5px solid white;
+  padding: 50px;
+}
+
+.main-board__header {
+  color: #1460aa;
+  background: #cfbc7e;
+  border-radius: 10px;
+  border: 1px solid #fefefe;
+  margin-bottom: 20px;
   text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-board__section {
+  background: #cfbc7e;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #fefefe;
+  position: relative;
+}
+.main-board__description {
+  display: inline-block;
+  background: #b19e60;
+  border-radius: 10px;
+  padding: 16px;
+  max-width: 800px;
+  min-height: 200px;
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  left: 400px;
+}
+
+.main-board__muntain-picture {
+  border-radius: 10px;
+}
+
+.main-board__title {
+  display: inline-block;
+  position: absolute;
+  left: 400px;
+  font-size: 2rem;
+}
+
+.main-board__facebook-link {
+  position: absolute;
+  bottom: 20px;
+  right: 80px;
+}
+.main-board__instagram-link {
+  position: absolute;
+  bottom: 20px;
+  right: 120px;
+}
+.main-board__linkedin-link {
+  position: absolute;
+  bottom: 20px;
+  right: 100px;
 }
 
 .menu-grey {
@@ -77,6 +140,7 @@ a {
   border-radius: 20px;
   border: 3px solid #fefefe;
 }
+
 .week-summary {
   height: 100%;
   background-color: #ece4b7;
@@ -90,7 +154,6 @@ a {
 .week-summary__description {
   color: #fefefe;
   background-color: #b19e60;
-
 }
 
 .week-summary__article {
@@ -110,11 +173,10 @@ a {
   border: 1px solid #fefefe;
   border-radius: 10px;
   margin: 30px 50px 20px 50px;
-  background-color: #cfbc7e; 
+  background-color: #cfbc7e;
   position: sticky;
   top: 1px;
 }
 .week-summary__title {
   color: #fefefe;
-
 }
