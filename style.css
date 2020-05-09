@@ -24,6 +24,7 @@ footer {
   background: #b19e60;
   padding: 5px;
   border-radius: 5px;
+  border: 1px solid white;
 }
 
 .span-yellow {
@@ -86,20 +87,21 @@ footer {
   font-size: 2rem;
 }
 
-.main-board__facebook-link {
+.links {
+  padding: 15px 10px 10px 10px;
+  border: 1px solid #fefefe;
+  border-radius: 5px;
   position: absolute;
-  bottom: 20px;
-  right: 80px;
+  right: 10px;
+  bottom: 10px;
 }
-.main-board__instagram-link {
-  position: absolute;
-  bottom: 20px;
-  right: 120px;
+
+.links__facebook {
+  border-radius: 10px;
 }
-.main-board__linkedin-link {
-  position: absolute;
-  bottom: 20px;
-  right: 100px;
+
+.links__linkedin {
+  border-radius: 10px;
 }
 
 .menu-grey {
