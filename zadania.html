@@ -9,34 +9,50 @@
 
   <body class="monospace">
     <header>
-      <nav>
-        <div class="menu-grey">
-          <a class="header-content" href="index.html">Strona główna</a>
-          <a class="header-notes" href="nauka-html.html">Notatki WTF</a>
-          <a class="header-tasks" href="zadania.html">Zadania do wykonania</a>
-        </div>
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--home-page" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Notatki WTF</a>
+        <a class="navigation__link" href="zadania.html">Zadania do wykonania</a>
       </nav>
     </header>
 
     <main>
-      <header>
-        
-        <h1 class="header-violet">Lista</h1>
-      </header>
+      <div class="week-summary">
+        <section>
+          <h2 class="week-summary__notes">Zadania do wykoniania</h2>
 
-      <section>
-        <h2 class="header-blue">Znaleźć pracę !</h2>
+          <article 
+          class="week-summary__article">
+            <h3 class="week-summary__title">Znaleźć pracę !</h3>
+            <p class="week-summary__description">
+              <img src="work.jpeg" alt="praca" />
+              <br>Za coś trzeba życ</p>
+          </article>
+    
+          <article class="week-summary__article">
+            <h3 class="week-summary__title">Zakup drona !</h3>
+            <p class="week-summary__description">
+              <img src="Air2.jpg" alt="Dron" /> 
+           <br>Najepiej Mavic Air 2 lub Mavic Air</p>
+          </article>
 
-        <img src="work.jpeg" alt="praca" />
+        </section>
+      </div>
+    </main>
+    <footer>
+      Strona domowa Mateusza Melera, wszystkie treści są efektem szkolenia WTF:
+      Co ten frontend.
+    </footer>
 
-        <p>Za coś trzeba życ</p>
 
-        <h2 class="header-blue">Zakup Drona !</h2>
 
-        <img src="Air2.jpg" alt="Dron" />
-        
-        <p>Najepiej Mavic Air 2 lub Mavic Air</p>
-      </section>
+
+
+
+
+
+
+
     </main>
   </body>
 </html>
