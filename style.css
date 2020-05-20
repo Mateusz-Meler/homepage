@@ -68,7 +68,7 @@ footer {
   padding: 50px;
 }
 
-.main-board__header {
+.header {
   color: #1460aa;
   background: #cfbc7e;
   border-radius: 10px;
@@ -80,14 +80,14 @@ footer {
   z-index: 1000;
 }
 
-.main-board__section {
+.section {
   background: #cfbc7e;
   border-radius: 10px;
   padding: 16px;
   border: 1px solid #fefefe;
   position: relative;
 }
-.main-board__description {
+.section__description {
   display: inline-block;
   background: #b19e60;
   border-radius: 10px;
@@ -104,11 +104,11 @@ footer {
   border: 1px solid #fefefe;
 }
 
-.main-board__muntain-picture {
+.section__muntain-picture {
   border-radius: 10px;
 }
 
-.main-board__title {
+.section__title {
   display: inline-block;
   position: absolute;
   left: 400px;
@@ -132,7 +132,7 @@ footer {
   border-radius: 10px;
 }
 
-.week-summary {
+.board {
   height: 100%;
   background-color: #ece4b7;
   position: relative;
@@ -147,7 +147,7 @@ footer {
   background-color: #b19e60;
 }
 
-.week-summary__article {
+.week-summary {
   padding: 16px;
   border: 1px solid #fefefe;
   border-radius: 10px;
@@ -156,7 +156,7 @@ footer {
   z-index: 1000;
 }
 
-.week-summary__notes {
+.notes {
   color: #1460aa;
   text-align: center;
   font-size: 2rem;
