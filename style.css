@@ -43,10 +43,10 @@ footer {
 
 .navigation {
   margin: 30px auto;
-  max-width: 686px;
+  display: flex;
+  justify-content: center;
 }
 .navigation__link {
-  display: inline-block;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -54,6 +54,7 @@ footer {
   background-color: #cfbc7e;
   font-size: 20px;
   text-decoration: none;
+  margin-right: 10px;
 }
 
 .navigation__link--home-page {

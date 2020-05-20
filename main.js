@@ -12,4 +12,6 @@ function calculet (age, firstName) {
 }
 
 const calculate = (myNumber) => myNumber*7; 
-console.log(calculate(7));
+console.log(calculate(8));
+
+
