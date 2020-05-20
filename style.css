@@ -1,5 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: rgb(29, 28, 28);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 .monospace {
@@ -43,6 +53,7 @@ footer {
   border: 3px solid #fefefe;
   background-color: #cfbc7e;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .navigation__link--home-page {
