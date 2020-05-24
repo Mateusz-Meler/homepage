@@ -14,27 +14,28 @@ body {
 
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
-  color: #fefefe;
+  color: #000;
 }
 
 p {
   background-color: #b19e60;
   padding: 16px;
   border-radius: 10px;
-  color: white;
+  color: #000
 }
 
 footer {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
 .top {
-  color: #fefefe;
+  color: #000;
   background: #b19e60;
   padding: 5px;
   border-radius: 5px;
   border: 1px solid white;
+  text-decoration: none;
 }
 
 .span-yellow {
@@ -47,7 +48,7 @@ footer {
   justify-content: center;
 }
 .navigation__link {
-  color: #fff;
+  color: #000;
   padding: 20px;
   border-radius: 10px;
   border: 3px solid #fefefe;
@@ -66,15 +67,15 @@ footer {
   border-radius: 10px;
   margin: 0 20px 30px 20px;
   border: 5px solid white;
-  padding: 50px;
+  padding: 30px;
 }
 
 .header {
-  color: #1460aa;
+  color: #000;
   background: #cfbc7e;
   border-radius: 10px;
   border: 1px solid #fefefe;
-  margin-bottom: 20px;
+  margin: 30px 50px 30px 50px;
   text-align: center;
   position: sticky;
   top: 0;
@@ -134,17 +135,23 @@ footer {
 }
 
 .board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 30px;
   height: 100%;
   background-color: #ece4b7;
   position: relative;
   box-sizing: border-box;
+  padding: 30px;
   border: 5px solid white;
   border-radius: 10px;
   margin: 20px 20px 30px 20px;
 }
 
 .week-summary__description {
-  color: #fefefe;
+  color: #000;
   background-color: #b19e60;
 }
 
@@ -152,23 +159,27 @@ footer {
   padding: 16px;
   border: 1px solid #fefefe;
   border-radius: 10px;
-  margin: 0px 50px 20px 50px;
+  margin: 0px 0px 10px 0px;
   background-color: #cfbc7e;
   z-index: 1000;
+  max-height: 350px;
 }
 
 .notes {
-  color: #1460aa;
+  color: #000;
   text-align: center;
   font-size: 2rem;
   padding: 16px;
   border: 1px solid #fefefe;
   border-radius: 10px;
-  margin: 30px 50px 20px 50px;
+  margin: 30px 50px 30px 50px;
   background-color: #cfbc7e;
   position: sticky;
   top: 1px;
+  z-index: 2000;
 }
 .week-summary__title {
-  color: #fefefe;
+  color: #000;
+  text-align: center;
+  font-size: 25px;
 }
