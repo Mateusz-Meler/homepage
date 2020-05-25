@@ -46,8 +46,6 @@ const dissapearMouse_3 = () => {
 };
 navigation_3.addEventListener("mouseleave", dissapearMouse_3);
 
-
-
 const topp = document.querySelector(".top--js");
 const appearMouse_4 = () => {
   topp.classList.add("yellow-class");

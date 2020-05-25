@@ -102,26 +102,29 @@ footer {
   border-radius: 10px;
   padding: 16px;
   max-width: 800px;
-  min-height: 200px;
+  max-height: 200px;
   position: absolute;
   top: 100px;
   right: 80px;
   left: 400px;
 }
+
+  .section__muntain-picture {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 400px;
+  }
+
+  .section__title {
+    display: inline-block;
+    position: absolute;
+    left: 400px;
+    font-size: 2rem;
+  }
+}
 .main-board__link {
   position: relative;
   border: 1px solid #fefefe;
-}
-
-.section__muntain-picture {
-  border-radius: 10px;
-}
-
-.section__title {
-  display: inline-block;
-  position: absolute;
-  left: 400px;
-  font-size: 2rem;
 }
 
 .links {
@@ -141,13 +144,16 @@ footer {
   border-radius: 10px;
 }
 
+.week-summary__description {
+  color: #000;
+  background-color: #b19e60;
+}
 .board {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   row-gap: 20px;
   column-gap: 30px;
-  height: 100%;
   background-color: #ece4b7;
   position: relative;
   box-sizing: border-box;
@@ -155,11 +161,6 @@ footer {
   border: 5px solid white;
   border-radius: 10px;
   margin: 20px 20px 30px 20px;
-}
-
-.week-summary__description {
-  color: #000;
-  background-color: #b19e60;
 }
 
 .week-summary {
@@ -191,4 +192,94 @@ footer {
   text-align: center;
   font-size: 25px;
 }
- 
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .navigation__link {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+  }
+  .section__muntain-picture {
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 200px;
+    align-self: center;
+  }
+
+  .main-board {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  
+  }
+  .board {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 0 20px 0;
+    
+  }
+  .week-summary {
+    max-height: 100%;
+    margin-bottom: 25px;
+  }
+  .notes {
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+    }
+
+  .header {
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+  }
+  .section {
+    display: flex;
+  
+  }
+
+  .section__description {
+    position: static;
+    max-height: 100%;
+    margin-left: 20px;
+  }
+
+  .section__title {
+    position: absolute;
+    font-size: 15px;
+  }
+
+  .links {
+    display: none;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+
+  .top {
+    margin-top: 20px;
+  }
+
+
+}
