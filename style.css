@@ -36,6 +36,7 @@ footer {
   border-radius: 5px;
   border: 1px solid white;
   text-decoration: none;
+  margin-bottom: 2px;
 }
 
 .span-yellow {
@@ -60,6 +61,11 @@ footer {
 
 .navigation__link--home-page {
   background-color: #b19e60;
+  color: #000;
+}
+
+.yellow-class {
+  color: #ffd900;
 }
 
 .main-board {
@@ -125,8 +131,6 @@ footer {
   position: absolute;
   right: 10px;
   bottom: 10px;
-
-
 }
 
 .links__facebook {
@@ -187,3 +191,4 @@ footer {
   text-align: center;
   font-size: 25px;
 }
+ 
