@@ -22,6 +22,7 @@ p {
   padding: 16px;
   border-radius: 10px;
   color: #000;
+  font-size: 20px;
 }
 
 footer {
@@ -102,7 +103,7 @@ footer {
   border-radius: 10px;
   padding: 16px;
   max-width: 800px;
-  max-height: 200px;
+  max-height: 250px;
   position: absolute;
   top: 100px;
   right: 80px;
@@ -193,15 +194,7 @@ footer {
   font-size: 25px;
 }
 
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   body {
     font-size: 12px;
   }
@@ -219,17 +212,35 @@ footer {
     margin-bottom: 5px;
     font-weight: bolder;
   }
+  .section {
+    display: block;
+  }
+  .section__title {
+    position: absolute;
+    left: 310px;
+    top: 50px;
+    font-size: 20px;
+  }
+  .section__description {
+    display: block;
+    position: static;
+    max-height: 100%;
+    margin: 0;
+    font-size: 15px;
+  }
+
   .section__muntain-picture {
     border-radius: 10px;
     max-width: 100px;
     max-height: 200px;
-    align-self: center;
+    margin-bottom: 20px;
   }
 
   .main-board {
     width: 100%;
     height: 100%;
     margin: 0;
+    padding: 0;
   
   }
   .board {
@@ -237,36 +248,28 @@ footer {
     width: 100%;
     height: 100%;
     margin: 0 0 20px 0;
-    
+    padding: 0;
   }
   .week-summary {
     max-height: 100%;
     margin-bottom: 25px;
+    
   }
+
+  .week-summary__title {
+    font-size: 20px;
+    margin: 5px;
+  }
+  
   .notes {
     font-size: 20px;
     margin: 20px 0 20px 0;
-    border-radius: 2px;
+    padding: 10px;
     }
 
   .header {
     margin: 20px 0 20px 0;
-    border-radius: 2px;
-  }
-  .section {
-    display: flex;
   
-  }
-
-  .section__description {
-    position: static;
-    max-height: 100%;
-    margin-left: 20px;
-  }
-
-  .section__title {
-    position: absolute;
-    font-size: 15px;
   }
 
   .links {
@@ -280,6 +283,13 @@ footer {
   .top {
     margin-top: 20px;
   }
+}
 
-
+@media screen and (max-width: 767px) {
+  .section__title {
+    position: absolute;
+    left: 140px;
+    top: 50px;
+    font-size: 20px;
+  }
 }
