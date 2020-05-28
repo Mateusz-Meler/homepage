@@ -13,46 +13,26 @@ function calculet(age, firstName) {
 const calculate = (myNumber) => myNumber * 7;
 console.log(calculate(8));
 
-const navigation = document.querySelector(".navigation__link--home-page--js");
-const appearMouse = () => {
-  navigation.classList.add("yellow-class");
-};
-navigation.addEventListener("mouseenter", appearMouse);
 
-const dissapearMouse = () => {
-  navigation.classList.remove("yellow-class");
-};
-navigation.addEventListener("mouseleave", dissapearMouse);
+const hamburger = document.querySelector('.hamburger--js');
+hamburger.addEventListener('click', () => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
 
-const navigation_2 = document.querySelector(".navigation__link--notes--js");
-const appearMouse_2 = () => {
-  navigation_2.classList.add("yellow-class");
-};
-navigation_2.addEventListener("mouseenter", appearMouse_2);
+const navigation = document.querySelector('.navigation__link--home-page--js');
+navigation.addEventListener('mouseenter',() => navigation.classList.add('yellow-class'));
+navigation.addEventListener('mouseleave',() => navigation.classList.remove('yellow-class'));
 
-const dissapearMouse_2 = () => {
-  navigation_2.classList.remove("yellow-class");
-};
-navigation_2.addEventListener("mouseleave", dissapearMouse_2);
+const navigation_2 = document.querySelector('.navigation__link--notes--js');
+navigation_2.addEventListener('mouseenter',() => navigation_2.classList.add('yellow-class'));
+navigation_2.addEventListener('mouseleave',() => navigation_2.classList.remove('yellow-class'));
 
-const navigation_3 = document.querySelector(".navigation__link--tasks--js");
-const appearMouse_3 = () => {
-  navigation_3.classList.add("yellow-class");
-};
-navigation_3.addEventListener("mouseenter", appearMouse_3);
+const navigation_3 = document.querySelector('.navigation__link--tasks--js');
+navigation_3.addEventListener('mouseenter',() => navigation_3.classList.add('yellow-class'));
+navigation_3.addEventListener('mouseleave',() => navigation_3.classList.remove('yellow-class'));
 
-const dissapearMouse_3 = () => {
-  navigation_3.classList.remove("yellow-class");
-};
-navigation_3.addEventListener("mouseleave", dissapearMouse_3);
+const navigation_4 = document.querySelector('.top--js'); 
+navigation_4.addEventListener('mouseenter',() => navigation_4.classList.add('yellow-class'));
+navigation_4.addEventListener('mouseleave',() => navigation_4.classList.remove('yellow-class'));
 
-const topp = document.querySelector(".top--js");
-const appearMouse_4 = () => {
-  topp.classList.add("yellow-class");
-};
-topp.addEventListener("mouseenter", appearMouse_4);
-
-const dissapearMouse_4 = () => {
-  topp.classList.remove("yellow-class");
-};
-topp.addEventListener("mouseleave", dissapearMouse_4);
