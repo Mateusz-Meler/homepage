@@ -1,16 +1,13 @@
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
 body {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
-}
+  background-image: linear-gradient(to right, #434343 0%, black 100%); }
 
 .board {
   display: grid;
@@ -24,22 +21,18 @@ body {
   padding: 30px;
   border: 5px solid white;
   border-radius: 10px;
-  margin: 20px 20px 30px 20px;
-}
+  margin: 20px 20px 30px 20px; }
 
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
-  color: #000;
-}
+  color: #000; }
 
 footer {
   color: #fff;
-  text-align: center;
-}
+  text-align: center; }
 
 .hamburger {
-  display: none;
-}
+  display: none; }
 
 .header {
   color: #000;
@@ -50,8 +43,7 @@ footer {
   text-align: center;
   position: sticky;
   top: 0;
-  z-index: 1000;
-}
+  z-index: 1000; }
 
 .links {
   padding: 15px 10px 10px 10px;
@@ -59,35 +51,29 @@ footer {
   border-radius: 5px;
   position: absolute;
   right: 10px;
-  bottom: 10px;
-}
+  bottom: 10px; }
 
 .links__facebook {
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .links__linkedin {
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .main-board {
   background: #ece4b7;
   border-radius: 10px;
   margin: 0 20px 30px 20px;
   border: 5px solid white;
-  padding: 30px;
-}
+  padding: 30px; }
 
 .main-board__link {
   position: relative;
-  border: 1px solid #fefefe;
-}
+  border: 1px solid #fefefe; }
 
 .navigation {
   margin: 30px auto;
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .navigation__link {
   color: #000;
@@ -97,13 +83,11 @@ footer {
   background-color: #cfbc7e;
   font-size: 20px;
   text-decoration: none;
-  margin-right: 10px;
-}
+  margin-right: 10px; }
 
 .navigation__link--home-page {
   background-color: #b19e60;
-  color: #000;
-}
+  color: #000; }
 
 .notes {
   color: #000;
@@ -116,16 +100,14 @@ footer {
   background-color: #cfbc7e;
   position: sticky;
   top: 1px;
-  z-index: 2000;
-}
+  z-index: 2000; }
 
 p {
   background-color: #b19e60;
   padding: 16px;
   border-radius: 10px;
   color: #000;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .section {
   background: #cfbc7e;
@@ -133,8 +115,7 @@ p {
   padding: 16px;
   border: 1px solid #fefefe;
   position: relative;
-  box-shadow: 0 8px 6px -6px black;
-}
+  box-shadow: 0 8px 6px -6px black; }
 
 .section__description {
   display: inline-block;
@@ -146,24 +127,21 @@ p {
   position: absolute;
   top: 100px;
   right: 80px;
-  left: 400px;
-}
+  left: 400px; }
 
 .section__muntain-picture {
   border-radius: 10px;
   max-width: 300px;
-  max-height: 400px;
-}
+  max-height: 400px; }
 
 .section__title {
   display: inline-block;
   position: absolute;
   left: 400px;
-  font-size: 2rem;
-}
+  font-size: 2rem; }
+
 .span-yellow {
-  color: yellow;
-}
+  color: yellow; }
 
 .top {
   color: #000;
@@ -172,184 +150,130 @@ p {
   border-radius: 5px;
   border: 1px solid white;
   text-decoration: none;
-  margin-bottom: 2px;
-}
+  margin-bottom: 2px; }
+
 .week-summary {
   padding: 16px;
   border: 1px solid #fefefe;
   border-radius: 10px;
   margin: 0px 0px 10px 0px;
   background-color: #cfbc7e;
-  box-shadow: 0 8px 6px -6px black;
-}
+  box-shadow: 0 8px 6px -6px black; }
 
 .week-summary__description {
   color: #000;
-  background-color: #b19e60;
-}
+  background-color: #b19e60; }
 
 .week-summary__title {
   color: #000;
   text-align: center;
-  font-size: 25px;
-}
+  font-size: 25px; }
+
 .week-summary__title::before {
-content: "";
-display: inline-block;
-width: 12px;
-height: 12px;
-background: #000;
-border-radius: 50%;
-margin-right: 20px;
-}
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #000;
+  border-radius: 50%;
+  margin-right: 20px; }
 
 .yellow-class {
-  color: #ffd900;
-}
+  color: #ffd900; }
 
 @media screen and (max-width: 1023px) {
-
   .board {
     display: block;
     width: 100%;
     height: 100%;
     margin: 0 0 20px 0;
-    padding: 0;
-  }
-
+    padding: 0; }
   footer {
-    margin-top: 20px;
-  }
-
+    margin-top: 20px; }
   .header {
     margin: 20px 0 20px 0;
     font-size: 10px;
-    position: static;
-  }
-
+    position: static; }
   .links {
-    display: none;
-  }
-
+    display: none; }
   .main-board {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
-  }
-
+    padding: 0; }
   .navigation {
     width: 100%;
     padding: 10px;
     margin: 0;
     display: block;
-    width: 50%;
-  }
-
+    width: 50%; }
   .navigation__link {
     display: block;
     padding: 5px;
     font-size: 15px;
     border-radius: 5px;
     margin-bottom: 5px;
-    font-weight: bolder;
-  }
-
+    font-weight: bolder; }
   .section {
-    display: block;
-  }
-
+    display: block; }
   .section__description {
     display: block;
     position: static;
     max-height: 100%;
-    margin: 0;
-  }
-
+    margin: 0; }
   .section__muntain-picture {
     border-radius: 10px;
     max-width: 100px;
     max-height: 200px;
-    margin-bottom: 20px;
-  }
-
+    margin-bottom: 20px; }
   .section__title {
     position: absolute;
     left: 310px;
     top: 50px;
-    font-size: 20px;
-  }
-
+    font-size: 20px; }
   .notes {
     font-size: 20px;
     margin: 20px 0 20px 0;
     padding: 10px;
-    position: static;
-  }
-
+    position: static; }
   .top {
-    margin-top: 20px;
-  }
-
+    margin-top: 20px; }
   .week-summary {
-    margin-bottom: 25px;
-  }
-
+    margin-bottom: 25px; }
   .week-summary__title {
     font-size: 20px;
-    margin: 5px;
-  }
-}
+    margin: 5px; } }
 
 @media screen and (max-width: 767px) {
-  
   .hamburger {
     display: inline-block;
     position: absolute;
     top: 27px;
     right: 10px;
     border: 0;
-    background: none;
-  }
-
+    background: none; }
   main {
-    margin: 60px auto 0;
-    
-  }
+    margin: 60px auto 0; }
   .main-heading {
     background: #b19e6088;
     min-height: 60px;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
-  }
-
+    z-index: 1000; }
   .navigation {
-    display: none;
-  }
-
+    display: none; }
   .navigation--open {
-    display: block;
-  }
-
+    display: block; }
   .section__title {
     position: absolute;
     left: 140px;
-    top: 50px;
-  }
-}
+    top: 50px; } }
 
 @media screen and (max-width: 1350px) {
-
   footer {
-    margin-top: 10px;
-  }
+    margin-top: 10px; }
   .monospace {
-    margin: 0;
-  }
-
+    margin: 0; }
   p {
-    font-size: 15px;
-  }
-}
+    font-size: 15px; } }
